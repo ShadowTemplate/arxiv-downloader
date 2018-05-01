@@ -24,7 +24,7 @@ An arXiv paper can be downloaded by its URL (typically
 _https://arxiv.org/abs/PAPER_ID_), e.g.:
 
 ```
-python3 arxiv.py https://arxiv.org/abs/1709.07020
+python arxiv.py https://arxiv.org/abs/1709.07020
 ```
 
 The output should be a nicely formatted PDF with title "*2017 - The arXiv of 
