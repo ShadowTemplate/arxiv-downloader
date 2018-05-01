@@ -1,6 +1,6 @@
 # arXiv Downloader
 
-A simple tool to download papers from [arxiv.org](https://arxiv.org/) via CLI.
+A simple tool to download papers from [arXiv](https://arxiv.org/) via CLI.
 
 ---
 ## Information
