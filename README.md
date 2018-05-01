@@ -19,6 +19,19 @@ changes are performed on its front end.*
 ---
 ## Getting Started
 
+The script is ready to be used and no configuration is required.
+An arXiv paper can be downloaded by its URL (typically 
+_https://arxiv.org/abs/PAPER_ID_). For example:
+
+```
+python3 arxiv.py https://arxiv.org/abs/1709.07020
+```
+
+The output should be a nicely formatted PDF with title *2017 - The arXiv of the 
+future will not look like the arXiv - l. Pepe, M. Cantiello, J. Nicholson.pdf*.
+
+### Prerequisites
+
 Clone the repository with:
 
 ```
@@ -29,25 +42,12 @@ Move to the new project folder:
 
 ```
 cd arxiv-downloader
-
 ```
-
-
-### Prerequisites
 
 Install the required Python dependencies via pip: 
 
 ```
 pip install -r requirements.txt
-```
-
-### Installing
-
-Download an arXiv paper by its URL (typically _https://arxiv.org/abs/PAPER_ID_)
-with: 
-
-```
-python3 arxiv.py https://arxiv.org/abs/PAPER_ID
 ```
 
 ---
