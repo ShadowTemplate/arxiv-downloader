@@ -84,5 +84,11 @@ def main(url):
 
 
 if __name__ == "__main__":
-    import sys
-    main(sys.argv[1])
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="A simple tool to download arXiv papers via CLI.")
+    parser.add_argument("-p", "--paper", type=str, required=True,
+                        help="Link to arXiv paper")
+    args = parser.parse_args()
+    main(args.paper)

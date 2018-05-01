@@ -1,6 +1,6 @@
 # arXiv Downloader
 
-A simple tool to download papers from [arXiv](https://arxiv.org/) via CLI.
+A simple tool to download [arXiv](https://arxiv.org/) papers via CLI.
 
 ---
 ## Information
@@ -24,7 +24,7 @@ An arXiv paper can be downloaded by its URL (typically
 _https://arxiv.org/abs/PAPER_ID_), e.g.:
 
 ```
-python arxiv.py https://arxiv.org/abs/1709.07020
+$ python arxiv.py -p https://arxiv.org/abs/1709.07020
 ```
 
 The output should be a nicely formatted PDF with title "*2017 - The arXiv of 
@@ -33,22 +33,12 @@ Nicholson.pdf*".
 
 ### Prerequisites
 
-Clone the repository with:
+Clone the repository and install the required Python dependencies:
 
 ```
-git clone https://github.com/ShadowTemplate/arxiv-downloader.git
-```
-
-Move to the new project folder:
-
-```
-cd arxiv-downloader
-```
-
-Install the required Python dependencies via pip: 
-
-```
-pip install -r requirements.txt
+$ git clone https://github.com/ShadowTemplate/arxiv-downloader.git
+$ cd arxiv-downloader
+$ pip install --user -r requirements.txt
 ```
 
 ---
