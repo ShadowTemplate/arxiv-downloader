@@ -13,8 +13,8 @@ A simple tool to download papers from [arXiv](https://arxiv.org/) via CLI.
 
 **Authors**: [ShadowTemplate](https://github.com/ShadowTemplate)
 
-**Notes**: *This tool parses arXiv source code and may thus suddenly break if
-changes are performed on its front end.*
+**Notes**: *This tool parses the source code of arXiv pages and may thus 
+suddenly break if changes are performed on its front end.*
 
 ---
 ## Getting Started
