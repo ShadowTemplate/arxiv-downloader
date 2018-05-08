@@ -37,7 +37,7 @@ Clone the repository and install the required Python dependencies:
 
 ```
 $ git clone https://github.com/ShadowTemplate/arxiv-downloader.git
-$ cd arxiv-downloader
+$ cd arxiv-downloader/
 $ pip install --user -r requirements.txt
 ```
 
